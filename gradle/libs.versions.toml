@@ -3,3 +3,6 @@ spring-boot = '3.5.9'
 
 [plugins]
 spring-boot = { id = 'org.springframework.boot', version.ref = 'spring-boot' }
+
+[libraries]
+spring-starter-actuator = { module = 'org.springframework.boot:spring-boot-starter-actuator', version.ref = 'spring-boot' }
